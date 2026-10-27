@@ -27,3 +27,23 @@ frontweb-edu
 build_edu
 node_modules
 ohos_hap
+
+# Local planning, workstation setup notes, and installation caches
+/.local/
+/LocalMiniDrama_install_logs/
+/LocalMiniDrama_安装依赖.ps1
+/LocalMiniDrama_启动与基础配置指南.md
+
+# Generated desktop packaging diagnostics
+/desktop/dist/
+
+# Runtime logs, environment overrides, and SQLite sidecars
+*.log
+.env
+.env.*
+!.env.example
+*.db-wal
+*.db-shm
+
+# Personal provider configuration exports
+/backend-node/configs/ai-configs-*.json
