@@ -1,0 +1,12 @@
+﻿[
+    {
+        "component":  "backend-node",
+        "installExitCode":  1,
+        "verificationExitCode":  null
+    },
+    {
+        "component":  "frontweb",
+        "installExitCode":  0,
+        "verificationExitCode":  0
+    }
+]
